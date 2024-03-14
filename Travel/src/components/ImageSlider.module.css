@@ -1,0 +1,167 @@
+.slidebtn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+    margin-top: 20%;
+  }
+  
+  .slidebtn button {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    font-size: xx-large;
+    border: none;
+    font-weight: bolder;
+    width: 60px;
+  }
+
+  .slidebtn button:hover {
+    font-size: xx-large;
+    background-color: white;
+    color: black;
+    height: 70px;
+    width: 2%;
+    cursor: pointer;
+  }
+  
+  .slider {
+    width: 98.7%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-direction: column;
+    margin: 0px auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 717px;
+    padding: 10px;
+  }
+  
+  .slider h3 {
+    color: white;
+    font-size: xx-large;
+    margin-left: 3%;
+    height: 0%;
+  }
+  
+  .slider h4 {
+    color: white;
+    font-size: medium;
+    margin-left: 3%;
+    height: 0%;
+  }
+  
+  .slider h5 {
+    color: white;
+    font-size: medium;
+    margin-left: 3%;
+    height: 0%;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  
+  .slider a {
+    color: white;
+    font-size: medium;
+    margin-left: 3%;
+    height: 0px;
+    text-decoration: none;
+  }
+  
+  .map {
+    margin-left: 3%;
+    font-weight: 700;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+  .map:hover {
+    font-size: larger;
+    font-weight: 900;
+    color: black;
+  }
+  
+  
+  .blur {
+    filter: blur(5px);
+    pointer-events: none; 
+  }
+
+  .btn {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    margin:1% 3%;
+    gap:3%
+
+  }
+  
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 80%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  
+  .content h6 {
+    color: black;
+    font-size: medium;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 15px;
+  }
+  
+  .closeBtn {
+    margin-bottom: 75%;
+    color: white;
+    background-color: black;
+  }
+  
+  .triangularButton {
+    position: relative;
+    display: inline-block;
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: color 0.4s, background-color 0.4s;
+  }
+  
+  .triangularButton::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: width 0.4s;
+  }
+  
+  .triangularButton:hover::before {
+    width: 100%;
+  }
+  
+  .triangularButton:hover {
+    color: black;
+  }
+  
+  .readButton:hover {
+    background-color: green; /* Green color for ReadBlog button */
+  }
+  
+  .editButton:hover {
+    background-color: yellow; /* Yellow color for EditBlog button */
+  }
+  
+  .deleteButton:hover {
+    background-color: red; /* Red color for Delete button */
+  }

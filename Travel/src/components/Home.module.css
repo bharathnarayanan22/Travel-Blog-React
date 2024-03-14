@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.parent_homecomp{   
+    width: 100%;
+    margin: auto;
+    padding: 0;
+    height: 460px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('src/images/2.webp'); 
+  }
+  
+  .parent_homecomp h1{
+    color: white;
+    font-size: 80px;
+    text-shadow: black;
+    height: 30px;
+    text-decoration-color: black;
+  }
+  
+  .parent_homecomp h4{
+    color: white;
+    font-size: medium;
+    text-shadow: black;
+    text-align: center;
+
+    
+  }
+
+  .cards{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    margin: 20px auto;
+  }
+   .card{
+     
+     display: flex;
+     align-items: center;
+     justify-content: flex-end;
+     flex-direction: column;
+    
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  }
+  /*.card2{
+     background-image: url('src/images/card2.webp');
+     background-size: cover;
+     background-repeat: no-repeat;
+     height: 300px;
+     display: flex-end;
+     align-items: center;
+     justify-content: flex-end;
+     flex-direction: column;
+     border-radius: 2px;
+     box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  }
+  .card3{
+     background-image: url('src/images/card3.webp');
+     background-size: cover;
+     background-repeat: no-repeat;
+     height: 300px;
+     display: flex-end;
+     align-items: center;
+     justify-content: flex-end;
+     flex-direction: column;
+     border-radius: 2px;
+     box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  } */

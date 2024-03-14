@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.signupformparent {
+  width: 99.8%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0px;
+  padding: 40px;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  background-image: url("src/images/signupbg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.animages {
+  margin: auto 0px;
+  border-radius: 8px;
+  text-align: start;
+}
+
+.signupformparent form {
+  display: flex;
+  flex-direction: column;
+}
+
+.signupformparent form h3 {
+  color: white;
+}
+
+.signupformparent form button {
+  margin: 10% auto;
+  padding: 5px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  width: 30%;
+}
+
+.animages {
+    margin: auto 0px;
+    border-radius: 8px;
+    text-align: start;
+  }
+  .animages h2 {
+    margin: 0px;
+    color: white;
+    font-size: 225%;
+  }
+  
+  .triangularButton {
+    position: relative;
+    display: inline-block;
+    width: 160px;
+    height: 50px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.25);
+}
+
+.triangularButton span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+
+.triangularButton span:nth-child(2) {
+    color: #6c4ba5;
+    background: #fff;
+    overflow: hidden;
+    z-index: 2;
+    transition: 0.5s;
+    clip-path: polygon(60% 0, 100% 0%, 100% 100%, 60% 100%, 40% 53%);
+}
+
+.triangularButton:hover span:nth-child(2) {
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%, 0 50%);
+}
+
+.triangularButton:hover span:nth-child(1) ~ span:nth-child(2) {
+    clip-path: polygon(100% 0, 100% 0%, 100% 100%, 100% 100%, 100% 50%);
+}
